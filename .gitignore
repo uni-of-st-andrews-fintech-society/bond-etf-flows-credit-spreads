@@ -1,5 +1,9 @@
 # Licensed or raw data never goes in the public repo
 data/raw/
+# Bloomberg Excel add-in exports, wherever they get saved
+*.xlsx
+*.xls
+*.xlsm
 
 # API keys and secrets
 .env
