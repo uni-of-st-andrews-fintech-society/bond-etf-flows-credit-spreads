@@ -22,3 +22,9 @@ Template:
 ```
 
 ---
+
+## 2026-11-13 — Bloomberg access confirmed (Phase 0)
+- What: The team has Bloomberg access, and CSV export is allowed.
+- Alternatives considered: The free-data fallback in the framework (flows rebuilt from iShares daily shares outstanding × NAV, and ICE BofA corporate spreads from FRED). It is no longer needed for access reasons. Which source the study uses is still to be recorded as its own entry before `PREREG.md` is committed.
+- Why: The framework's bond ETF notes say to confirm Bloomberg access first, because it is the project's main data risk.
+- Who: alexanderschmidt0111-afk
